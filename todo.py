@@ -86,8 +86,8 @@ class Todo:
             "date_creation": self.date_creation
         }
 
-    @classmethod
-    def from_dict(cls, data):
+    @classmethod 
+    def from_dict(cls, data): #cls represente la classe elle-même, permettant de créer une instance à partir d'un dictionnaire
         """
         Crée une instance Todo à partir d'un dictionnaire.
         
