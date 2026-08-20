@@ -1,6 +1,6 @@
 from datetime import datetime
 
-print("BIENVENUE DANS L'APPLICATION DE GESTION DE TÂCHES !...")
+print("\n\n♻️🔶 BIENVENUE DANS L'APPLICATION DE GESTION DE TÂCHES !... 🔶♻️")
 
 class Todo:
     def __init__(self, id, titre, description="", priorite="moyenne", categorie="autre", termine=False, date_creation=None):
