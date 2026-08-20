@@ -110,7 +110,7 @@ class CLI:
         if not todos:
             print("  ℹ️  Aucune tâche trouvée")
             return
-        # Affiche un séparateur de début
+        # Affiche un séparateur de début'g
         print(f"\n  {'─'*36}")
         # Affiche chaque tâche de la liste
         for todo in todos:
